@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <body style="background-color:rgb(196, 243, 227);">
+
+        <div style="margin-top: 10%; display:grid; place-items: center;">
+            <div>
+                <input id="usuario_ingresado" type="text" placeholder="Usuario">
+            </div>
+    
+            <div>
+                <input id="clave_ingresada" type="password" placeholder="Clave">
+            </div>
+    
+            <div>
+                <button onclick="verificacion()">Ingresar</button>  
+            </div>
+
+            <div id="mensaje_resultado">
+                <h2>Resultado</h2>
+            </div>
+    
+            <div id="intentos" style="margin-bottom: 2%">
+                <h2>Intentos restantes: </h2>
+            </div> 
+        </div>
+        <script src="verificacion.js"></script>
+
+    </body>
+
+</html>
